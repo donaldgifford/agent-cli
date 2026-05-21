@@ -1,0 +1,21 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: agent-cli
+  title: agent-cli
+  description: Mac Agent CLI
+  annotations:
+    backstage.io/code-coverage: enabled
+    backstage.io/source-location: url:https://github.com/donaldgifford/agent-cli
+    backstage.io/techdocs-ref: "dir:."
+    github.com/project-slug: donaldgifford/agent-cli
+  tags:
+    - go
+    - github
+  namespace: default
+spec:
+  lifecycle: production
+  type: service
+  owner: donaldgifford
+  system: infrastructure
